@@ -1,1 +1,1 @@
-name = "file_access"
+name = "inapp_file_lib"

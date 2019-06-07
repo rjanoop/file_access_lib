@@ -47,7 +47,7 @@ class Record:
 
     # Read the record defenition from "field.def" file
     def recordDef(self, recName):
-        fx = open("Input/field.def", "r", encoding="Latin-1")
+        fx = open("field.def", "r", encoding="Latin-1")
         line = fx.readline()
         while line:
             line = line.split("#", 1)[0]
